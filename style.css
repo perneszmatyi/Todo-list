@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.todo {
+  height: 10vh;
+  width: 100%;
+}
+
+.todo .todo-panel {
+  width: 70ch;
+  height: 30vh;
+  margin: auto;
+  margin-top: 6%;
+  background-color: #555555;
+  color: white;
+  position: relative;
+  border-radius: 5px;
+}
+
+.todo .todo-panel h1 {
+  border: 2px solid lightblue;
+  width: 25%;
+  margin: auto;
+  position: relative;
+  top: -15px;
+  background-color: #333333;
+  border-radius: 5px;
+  text-align: center;
+  color: lightblue;
+}
+
+.todo .todo-panel .form {
+  height: 5vh;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.todo .todo-panel .form input {
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+
+.todo .todo-panel button {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10%;
+  position: relative;
+  display: block;
+  width: 25%;
+  text-decoration: none;
+  color: lightblue;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+  background-color: #333333;
+  -webkit-transition: 200ms all ease;
+  transition: 200ms all ease;
+}
+
+.todo .todo-panel button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.todo .list-panel {
+  margin: auto;
+  margin-top: 5%;
+  width: 70ch;
+  text-align: center;
+  height: auto;
+}
+
+.todo-elem-container {
+  height: 8vh;
+  background-color: #666666;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.todo-elem {
+  border-radius: 5px;
+  height: 55%;
+  display: inline-block;
+  background-color: white;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  max-width: 50%;
+}
+
+.todo-done-btn, .todo-clear-btn {
+  width: 15%;
+  height: 55%;
+  border-radius: 5px;
+  text-decoration: none;
+  color: lightblue;
+  background-color: #333333;
+  border: none;
+  border: 1px solid lightblue;
+  -webkit-transition: 200ms all ease;
+  transition: 200ms all ease;
+  font-weight: bold;
+}
+
+.todo-done-btn:hover, .todo-clear-btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=style.css.map */
